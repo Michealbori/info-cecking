@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.header_list {
+background-color: rgb(29, 29, 199);
+}
+.header_list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_list ul li{
+list-style: none;
+color: aliceblue;
+font-size: 2em;
+padding: 1em;
+}
+.info_display li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 900;
+    padding: 1em;
+    color: rgb(217, 25, 25);
+}
+.input_all input{
+    width: 30em;
+    height: 3.5em;
+    border: 3px solid rgb(217, 25, 25);
+    border-radius: 5px;
+
+}
+.input_all1 input{
+    width: 25em;
+    height: 3.5em;
+    border: 3px solid rgb(217, 25, 25);
+    border-radius: 5px;
+
+}
+.input_all2 input{
+    width: 25em;
+    height: 3.5em;
+    border: 3px solid rgb(217, 25, 25);
+    border-radius: 5px;
+
+}
+.input_all3 input{
+    width: 25em;
+    height: 3.5em;
+    border: 3px solid rgb(217, 25, 25);
+    border-radius: 5px;
+
+}
+
+button{
+background-color: blue;
+color: white;
+border: none;
+width: 7em;
+height: 3em;
+font-size: 1em;
+font-weight: 900;
+font-family: georgia;
+border-radius: 1em;
+
+}
+.button_field{
+    display: flex;
+    justify-content: center;
+
+}
+.my-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro_header{
+    color: black;
+    font-weight: 900;
+    font-size: 2em;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+}
+.History{
+    color: red;
+    font-weight: 900;
+    font-size: 2em;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    line-height: 1.4em;
+}
+
+@media (width: 360px) {
+    .input_all1 input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .input_all2 input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .input_all3 input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .input_all input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .content{
+        line-height: 1.4em;
+        padding: 1.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    .input_all1 input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .input_all2 input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .input_all3 input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .input_all input{
+        width: 20em;
+        height: 3.5em;
+        border: 3px solid rgb(217, 25, 25);
+        border-radius: 5px;
+    
+    }
+    .content{
+        line-height: 1.4em;
+        padding: 1.4em;
+    }
+}
